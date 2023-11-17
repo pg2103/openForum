@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+    @apply bg-rose-500 text-white ;
+}
+
+.firebaseui-card-content {
+    padding: 0 !important;
+}
